@@ -1,0 +1,221 @@
+/* Base Styles -------------------- */
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  color: #384047;
+  font-family: Merriweather;
+}
+
+fieldset{
+  border: initial;
+  width: 100%;
+  padding: 0;
+}
+
+form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Form Fields -------------------- */
+
+
+textarea,
+select,
+.input{
+  font-size: 1em;
+  color: #222;
+  font-weight: 300; 
+  width: 100%;
+  border: none;
+  height: auto;
+  padding: 15px;
+  outline: 0;
+  margin-bottom: 1.2em;
+  border-radius: .3em;
+  border-bottom: 3px solid rgba(0,0,0, 0.05);
+  background-color: #e8eeef;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-size: 1em; 
+}
+
+select,
+input{
+  margin-bottom: 50px;
+  font-family: Merriweather;
+
+}
+
+select {
+  color: #9ea9b2;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #fff;
+  background-color: #4ebbb5;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  font-family: Merriweather;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #239e95;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+#name,
+#email {
+  text-align: right;
+  color: #9ea9b2;
+  font-style: italic;
+}
+
+
+/* Basic Style -------------------- */
+
+.container{
+  margin-bottom: 100px;
+}
+.header {
+  padding: 50px 50px;
+  background-color: #1e3547;
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 0;
+  text-align: center;
+}
+
+.optgroup, {
+ line-height: 50px;
+}
+
+.signup{
+  text-align: center;
+  margin-top: 30px;
+  border-bottom: 15px solid #1e3547;
+}
+
+.signup h2 {
+  margin-bottom: 0;
+  font-size: 1.5em;
+}
+
+.signup p {
+  margin: 10px 0 50px 0;
+  color: #9ea9b2;
+  font-size: 1em;
+}
+
+.contact{
+  border-top: 5px solid #1e3547;
+  margin-top: 10px;
+  padding: 40px 0 10px 0;
+  text-align: left;
+  font-size: 1.5em;
+
+}
+
+#state {
+  padding: 30px 0;
+}
+
+#zip{
+  width: 50%;
+}
+
+.zip {
+  margin-top: 20px;
+}
+
+.newsletter {
+  border-top: 5px solid #1e3547;
+  margin-top: 50px;
+  padding: 10px 0 20px 0;
+  text-align: left;
+
+}
+
+.checkbox {
+  margin-top: 0;
+}
+
+.css,
+.javascript {
+  margin-top: 20px;
+}
+
+.html-fm{
+  margin-top: 30px;
+}
+
+.news {
+  margin-left: 10px;
+}
+
+.format {
+  margin-top: 30px;
+}
+
+.copyright{
+  text-align: center;
+  color: #9ea9b2;
+  font-style: italic;
+}
+
+
+/*.class {
+  font-family: Merriweather;
+  font-size: 
+}*/
+
+/* Media Queries -------------------- */
+
+@media (min-width: 760px) {
+  .container {
+    width: 60%;
+    margin: auto;
+  }
+
+
+/* Flexbox -------------------- */
+
+  fieldset .flex{
+    display: flex;
+    
+  }
+
+  input .row,
+  label .col {
+    flex-direction: column;
+  }
+
+  label {
+    width: 30%;
+  }
+
+  .input {
+    width: 70%;
+    align-content: right;
+  }
+
+  option{
+    color: #9ea9b2;
+  }
+}
