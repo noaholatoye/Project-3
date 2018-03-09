@@ -1,8 +1,6 @@
 /* Base Styles -------------------- */
 
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 body {
@@ -15,10 +13,6 @@ fieldset{
   padding: 0;
 }
 
-/*form {
-  width: 90%;
-  margin: 0 auto;
-}*/
 
 /* Form Fields -------------------- */
 
@@ -45,10 +39,6 @@ label {
   display: block;
   margin-bottom: 0.5em;
   font-size: 1em; 
-}
-
-textarea{
-  background-color: #fff;
 }
 
 select,
@@ -83,6 +73,10 @@ button {
   margin-bottom: 10px;
 }
 
+textarea {
+  border: 1px solid #767777;
+}
+
 /* Pseudo Classes -------------------- */
 
 input::placeholder {
@@ -94,6 +88,11 @@ input::placeholder {
 input:focus, 
 textarea:focus {
   border: 1px solid #1e3547;
+}
+
+input:hover,
+textarea:hover {
+  background-color: #7e8281;
 }
 
 /* Basic Style -------------------- */
@@ -114,7 +113,7 @@ textarea:focus {
   text-align: center;
 }
 
-.optgroup, {
+.optgroup {
  line-height: 50px;
 }
 
@@ -122,6 +121,8 @@ textarea:focus {
   text-align: center;
   margin-top: 30px;
   border-bottom: 15px solid #1e3547;
+  width: 99%;
+  margin: 0 auto;
 }
 
 .signup h2 {
@@ -159,6 +160,7 @@ textarea:focus {
 
 #state {
   color: #9ea9b2;
+  padding: 50px 0;
 }
 
 .zip {
@@ -201,11 +203,6 @@ textarea:focus {
 }
 
 
-/*.class {
-  font-family: Merriweather;
-  font-size: 
-}*/
-
 /* Media Queries -------------------- */
 
 @media (min-width: 760px) {
@@ -237,7 +234,6 @@ textarea:focus {
 
   .input {
     width: 70%;
-    align-content: right;
   }
 
   option{
