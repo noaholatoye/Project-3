@@ -113,15 +113,11 @@ textarea:hover {
   text-align: center;
 }
 
-.optgroup {
- line-height: 50px;
-}
-
 .signup{
   text-align: center;
   margin-top: 30px;
   border-bottom: 15px solid #1e3547;
-  width: 99%;
+  width: 99.5%;
   margin: 0 auto;
 }
 
@@ -160,7 +156,6 @@ textarea:hover {
 
 #state {
   color: #9ea9b2;
-  padding: 50px 0;
 }
 
 .zip {
