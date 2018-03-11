@@ -14,13 +14,12 @@
 	    <form class="container">
 	    	<div class="wrap"><!-- Wrap -->
 				<div class="signup">
-			    	<H2 >Signup for our newsletter</H2>
-			    	<p>Get the latest news on how your code is doing right in your inbox</p>
+			    	<H2>Signup for our newsletter</H2>
+			    	<p class="note">Get the latest news on how your code is doing right in your inbox</p>
 			   	</div>
 
 		        <fieldset> <!-- Contact Information -->
-			        <h1 class="contact">Contact Information</h1>
-
+		        	<legend class="contact legend-1">Contact Information</legend>
 			        <div class="flex"> <!-- Flex Items 1 -->
 				        <label for="name" class="col">Full Name</label> 
 				        <input type="text" id="name" name="full-name" placeholder="Required" class="input row">
@@ -135,15 +134,14 @@
 			    
 	    		</fieldset> <!-- Contact Information -->
 	    	</div><!-- Wrap -->
+	    	
 
-        <fieldset class="background"><!-- newsletter -->
-        	<div class="wrap-2"><!-- wrap 2< -->
-	            <div class="newsletter">
-	               <h1>Newsletter</h1>
-	               <p>Select the newsletters you would like to receive</p>
-	            </div>
-
-	            <div class="checkbox"> <!-- checkbox -->
+        <fieldset class="background" class="wrap-2"><!-- newsletter -->
+        	
+        	<legend class="legend-2">Newsletter</legend>
+        	
+	               <p class="note-2 wrap-2">Select the newsletters you would like to receive</p>
+	            <div class="checkbox wrap-2"> <!-- checkbox -->
 	               <input type="checkbox" name="news" value="html-news" id="html-news" checked> <span class="news"> HTML News </span><br>
 	               <input type="checkbox" name="news" value="css-news" id="css-news" class="css"> <span class="news"> CSS News </span><br>
 	               <input type="checkbox" name="news" value="javascript-news" id="javascript-news" class="javascript"> <span class="news"> Javascript News </span><br>
@@ -161,7 +159,7 @@
 		               	<p class="format copyright">Copyright The Code Review</p>
 		            </div>
 	        	</div><!-- checkbox -->
-	        </div><!-- wrap 2< -->
+	        
         </fieldset><!-- newsletter -->
 
 
