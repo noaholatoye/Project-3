@@ -136,26 +136,24 @@
 	    <footer class="background">
         <fieldset  class="wrap-2"><!-- newsletter -->
         	<legend class="legend-2">Newsletter</legend>
-        	<p class="note-2">Select the newsletters you would like to receive</p>
+        	<p class=""></p>
 
-          <div class="checkbox"> <!-- checkbox -->
-             <input type="checkbox" name="news" value="html-news" id="html-news" checked> <span class="news"> HTML News </span><br>
-             <input type="checkbox" name="news" value="css-news" id="css-news" class="css"> <span class="news"> CSS News </span><br>
-             <input type="checkbox" name="news" value="javascript-news" id="javascript-news" class="javascript"> <span class="news"> Javascript News </span><br>
+          <label for="html-news" class="checkbox note-2">Select the newsletters you would like to receive</label>
+					<input type="checkbox" name="news" value="html-news" id="html-news" checked> <span class="news"> HTML News </span><br>
+ 					<input type="checkbox" name="news" value="css-news" id="css-news" class="css"> <span class="news"> CSS News </span><br>
+          <input type="checkbox" name="news" value="javascript-news" id="javascript-news" class="javascript"> <span class="news"> Javascript News </span><br>
 
-             <div class="format">
-               <p class="format">Newsletter format</p>
-               <input type="radio" name="format" value="html-format" id="html" class="css" checked> <span class="news"> HTML </span><br>
-               <input type="radio" name="format" value="css-format" id="css" class="css"> <span class="news"> CSS </span><br>
-             </div>
+        	<label for="html" class="format">Newsletter format</label>
+					<input type="radio" name="format" value="html-format" id="html" class="css" checked> <span class="news"> HTML </span><br>
+					<input type="radio" name="format" value="css-format" id="css" class="css"> <span class="news"> CSS </span><br>
 
-             <div>
-               	<p class="format">Other topics you'd like to hear about</p>
-               	<textarea id="topics" name="user-topics" class="format" placeholder="Optional"></textarea>
-               	<button type="submit" class="format">Sign Up</button>
-               	<p class="format copyright">Copyright The Code Review</p>
-            </div>
-      		</div><!-- checkbox -->
+					<label for="topics" class="format">Other topics you'd like to hear about</label>
+					<textarea id="topics" name="user-topics" class="format" placeholder="Optional"></textarea>
+              
+          <label for="button"></label> 	
+          <button type="submit" id="button" class="format">Sign Up</button>
+          <p class="format copyright">Copyright The Code Review</p>
+
       	</fieldset><!-- newsletter -->
       </footer>
 

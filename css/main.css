@@ -231,6 +231,10 @@ textarea:hover {
   width: 28%;
 }
 
+.note-2 {
+  width: 100%;
+}
+
 /* Flexbox -------------------- */
 
   fieldset .flex{
