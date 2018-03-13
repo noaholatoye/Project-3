@@ -4,8 +4,8 @@
       <title>THE CODE REVIEW</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="css/main.css">
       <link rel="stylesheet" type="text/css" href="css/normalize.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
       <meta charset="utf-8">
    </head>
    <body>
@@ -139,16 +139,16 @@
         	<p class=""></p>
 
           <label for="html-news" class="checkbox note-2">Select the newsletters you would like to receive</label>
-					<input type="checkbox" name="news" value="html-news" id="html-news" checked> <span class="news"> HTML News </span><br>
- 					<input type="checkbox" name="news" value="css-news" id="css-news" class="css"> <span class="news"> CSS News </span><br>
-          <input type="checkbox" name="news" value="javascript-news" id="javascript-news" class="javascript"> <span class="news"> Javascript News </span><br>
+					<input type="checkbox" name="news" value="html-news" id="html-news" checked> <label for="html-news" class="news"> HTML News </label><br>
+ 					<input type="checkbox" name="news" value="css-news" id="css-news" class="css"> <label for="css-news" class="news"> CSS News </label><br>
+          <input type="checkbox" name="news" value="javascript-news" id="javascript-news" class="javascript"> <label for="javascript-news" class="news"> Javascript News </label><br>
 
         	<label for="html" class="format">Newsletter format</label>
-					<input type="radio" name="format" value="html-format" id="html" class="css" checked> <span class="news"> HTML </span><br>
-					<input type="radio" name="format" value="css-format" id="css" class="css"> <span class="news"> CSS </span><br>
+					<input type="radio" name="format" value="html-format" id="html" class="css" checked> <label for="html-format" class="news"> HTML </label><br>
+					<input type="radio" name="format" value="css-format" id="css" class="css"> <label for="css-format" class="news"> CSS </label><br>
 
 					<label for="topics" class="format">Other topics you'd like to hear about</label>
-					<textarea id="topics" name="user-topics" class="format" placeholder="Optional"></textarea>
+					<textarea id="topics" name="user-topics" class="format" placeholder="Optional"></textarea> <label for="user-topics"></label>
               
           <label for="button"></label> 	
           <button type="submit" id="button" class="format">Sign Up</button>
